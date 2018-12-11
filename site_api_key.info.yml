@@ -1,0 +1,5 @@
+name: Site API Key Module
+description: Module for extending Drupal site information form.
+package: 'Custom'
+type: module
+core: 8.x

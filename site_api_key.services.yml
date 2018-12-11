@@ -1,0 +1,7 @@
+services:
+  # Definig services t use in site_api_key\Routing\RouteSubscriber
+  describe_site.route_subscriber:
+    # use class RouteSubscriber
+    class: 'Drupal\site_api_key\Routing\RouteSubscriber'
+    tags:
+      - { name: event_subscriber }
